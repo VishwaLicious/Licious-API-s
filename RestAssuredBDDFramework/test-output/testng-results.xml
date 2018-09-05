@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9047" started-at="2018-09-04T11:13:02Z" finished-at="2018-09-04T11:13:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9047" started-at="2018-09-04T11:13:02Z" finished-at="2018-09-04T11:13:11Z">
+      <class name="com.licious.test.Login">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.licious.test.Login@28feb3fa]" name="init" is-config="true" duration-ms="546" started-at="2018-09-04T16:43:02Z" finished-at="2018-09-04T16:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifybasicinfoofuser()[pri:0, instance:com.licious.test.Login@28feb3fa]" name="verifybasicinfoofuser" duration-ms="4266" started-at="2018-09-04T16:43:02Z" finished-at="2018-09-04T16:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybasicinfoofuser -->
+        <test-method status="PASS" signature="verifyloginwithdiffcrds(java.lang.String, java.lang.String)[pri:0, instance:com.licious.test.Login@28feb3fa]" name="verifyloginwithdiffcrds" duration-ms="1219" started-at="2018-09-04T16:43:07Z" data-provider="credentials" finished-at="2018-09-04T16:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.kumar@licious.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arun@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithdiffcrds -->
+        <test-method status="PASS" signature="verifyloginwithdiffcrds(java.lang.String, java.lang.String)[pri:0, instance:com.licious.test.Login@28feb3fa]" name="verifyloginwithdiffcrds" duration-ms="1043" started-at="2018-09-04T16:43:08Z" data-provider="credentials" finished-at="2018-09-04T16:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arunkumar@licious.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithdiffcrds -->
+        <test-method status="PASS" signature="verifyloginwithdiffcrds(java.lang.String, java.lang.String)[pri:0, instance:com.licious.test.Login@28feb3fa]" name="verifyloginwithdiffcrds" duration-ms="854" started-at="2018-09-04T16:43:09Z" data-provider="credentials" finished-at="2018-09-04T16:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madan.k@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arun@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithdiffcrds -->
+        <test-method status="PASS" signature="verifyloginwithdiffcrds(java.lang.String, java.lang.String)[pri:0, instance:com.licious.test.Login@28feb3fa]" name="verifyloginwithdiffcrds" duration-ms="1098" started-at="2018-09-04T16:43:10Z" data-provider="credentials" finished-at="2018-09-04T16:43:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankitharinsha@licious.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithdiffcrds -->
+      </class> <!-- com.licious.test.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
